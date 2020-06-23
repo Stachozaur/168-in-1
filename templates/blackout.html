@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/css/blackout.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Germania+One"
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Breakout Game</title>
+</head>
+<body>
+    <div class="sound">
+        <img src="../static/blackout_images/SOUND_ON.png" alt="" id="sound">
+    </div>
+    <div id="gameover">
+        <img src="../static/blackout_images/youwon.png" alt="" id="youwon">
+        <img src="../static/blackout_images/youlose.png" alt="" id="youlose">
+        <div id="restart">ZARGAJ PONOWNIE</div>
+    </div>
+
+    <canvas id="breakout" width="400" height="500"></canvas>
+
+    <script src="../static/js/components.js"></script>
+    <script src="../static/js/blackoutGame.js"></script>
+</body>
+</html>
